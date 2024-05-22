@@ -1,0 +1,69 @@
+@model IlanDuzenleViewModel
+@{
+    var gorseller= @Model.Resimler;
+}
+<div class="container profile-container">
+    <div class="card-columns">
+        <div class="card">
+            <div class="card-body">
+                <div class="mb-3">
+                    <button class="btn btn-primary " id="changeImage" style="width: 100%;">Fotoğraf Değiştir</button>
+                </div>
+                
+                <form asp-action="IlanDuzenle" asp-controller="Ilan" method="post" enctype="multipart/form-data">
+
+                    <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <div class="form-field col-lg-12 uploadImage mb-3 mt-3" style="display: none; ">
+                        <input type="file" asp-for="Gorseller" class="form-control" multiple>
+                       </div>
+                    
+                        @foreach(var gorsel in gorseller){
+                            <img class="card-img-top" src="/img/@gorsel">
+                        }
+                    
+                    <label asp-for="Fiyat" class="form-label">Fiyat</label>
+                    <input value="@Model.Fiyat
+                    " class="form-control mt-3" asp-for="Fiyat">
+                    
+                    
+                    <label asp-for="Km" class="form-label">Kilometre</label>
+                    <input value="@Model.Km
+                    " class="form-control mt-3" asp-for="Km">
+                    
+
+                    <input type="hidden" value="@Model.IlanId" asp-for="IlanId">
+                        
+                 
+                  
+                    <div class="row mt-3">
+                    
+                            <button type="submit" class="btn submit-btn  btn-success mt-3" >Kaydet</button>
+                        <div class="col text-right">
+                           
+                           
+                        </div>    
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        <div class="deleteForm mt-4">
+            <form asp-action="IlanKaldir" method="post" onsubmit="return confirm('Emin Misiniz')" style="display: inline-block; width: 100%;">
+            <input type="hidden"  asp-for="IlanId" value="@Model.IlanId">
+            <button type="submit" class="btn btn-outline-danger" style="width: 100%;">İlan Kaldır</button>
+        </form>
+        </div>
+
+      </div>
+  </div>
+@section Scripts{
+    <script >
+    $(document).ready(function() {
+
+            $('#changeImage').click(function() {
+                $('.uploadImage').show(500);
+            });
+        });
+        </script>
+    }

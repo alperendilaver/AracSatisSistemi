@@ -1,0 +1,130 @@
+@model List<Ilan>
+  
+<form asp-action="GetFilteredAd" asp-controller="Search" method="post" id="FilterForm" style="display: none;">
+    
+  <div class="mb-3">
+      <label for="Tittle" class="form-label">Baslik</label>
+      <input type="text" class="form-control" name="Tittle">
+  </div>
+   
+
+  <div class="mb-3">
+      <label for="Type" class="form-label">Tür</label>
+      <input type="text" class="form-control" name="Type">
+  </div>
+    
+  <div class="mb-3">
+      <label for="minPrice" class="form-label">En Düşük Fiyat</label>
+      <input type="text" class="form-control" name="minPrice">
+  </div>
+
+  <div class="mb-3">
+    <label for="maxPrice" class="form-label">En Yüksek Fiyat</label>
+    <input type="text" class="form-control" name="maxPrice">
+  </div>
+
+  <div class="mb-3">
+    <label for="Year" class="form-label">Üretim Yılı</label>
+    <input type="text" class="form-control" name="Year">
+  </div>
+
+  <div class="mb-3">
+    <label for="MakeId" class="form-label">Marka</label>
+    <select class="form-control" name="MakeId" asp-items="@ViewBag.Markalar"></select>
+  </div>
+  
+  <div class="mb-3">
+    <label for="ModelId" class="form-label">Model</label>
+    <select class="form-control" name="ModelId" asp-items="@ViewBag.Modeller"></select>
+  </div>
+
+  
+  <div class="mb-3">
+    <label for="FuelType" class="form-label">Yakıt Tipi</label>
+    <select name="FuelType" class="form-control">
+        <option value="benzin">Benzin</option>
+        <option value="Dizel">Dizel</option>
+        <option value="LPG">LPG</option>
+    </select>
+  </div>
+  <div class="mb-3">
+      <label for="Transmission" class="form-label">Sanziman</label>
+      <select name="Transmission" class="form-control">
+          <option value="otomatik">Otomatik</option>
+          <option value="manuel">Manuel</option>
+          <option value="yariOtomatik">Yarı Otomatik</option>
+      </select>
+  </div>
+  <div class="mb-3">
+      <label for="minKm" class="form-label">Min Kilometre</label>
+      <input type="text" class="form-control" name="minKm">
+  </div>
+  <div class="mb-3">
+    <label for="maxKm" class="form-label">Max Kilometre</label>
+    <input type="text" class="form-control" name="maxKm">
+  </div>
+  
+  <div class="mb-3">
+    <label for="minYear" class="form-label">Min Model</label>
+    <input type="text" class="form-control" name="minYear">
+  </div>
+  <div class="mb-3">
+    <label for="maxYear" class="form-label">Max Model</label>
+    <input type="text" class="form-control" name="maxYear">
+  </div>
+  
+    <button type="submit" class="btn btn-primary">Ara</button>
+</form>
+<button type="button" class="btn btn-primary" id="FilterBtn">Filtrele</button>
+<button type="button" class="btn btn-danger mt-3" id="HideFilterBtn" style="display: none;">Filtrelemeyi İptal Et</button>
+
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="d-flex flex-column">
+  @foreach(var item in Model){
+    
+      <div class="card-columns d-flex justify-content-center" style="margin-bottom: 90px;">
+
+        <div class="card mt-5" style="width: 600px;">
+          <a asp-action="Detay" asp-controller="Ilan" asp-route-id="@item.IlanId">
+            <h6>@item.kullanici.Ad</h6>
+            <img class="card-img-top " src="/img/@item.Resimler[0]">
+            <div class="card-body">
+              <p class="card-text">
+                @item.Baslik
+              </p>
+              <p class="text-muted">Fiyat: @item.Fiyat</p>
+              
+              <p class="text-muted">Marka: @item.arac.Marka.MakeName</p>
+              
+              <p class="text-muted">Model: @item.arac.Model.ModelAdi</p>
+              
+              <p class="text-muted">Kilometre: @item.arac.Km</p>
+              
+              <p class="text-muted">Sanziman: @item.arac.Sanziman</p>
+              
+              <p class="text-muted">Model: @item.arac.UretimYili</p>
+            </div>
+            </a>
+            
+          </div>
+          </div>
+        
+        }
+</div>
+
+@section Scripts{
+  <script>
+    $(document).ready(function(){
+      $("#FilterBtn").click(function(){
+        $("#FilterForm").show(2000);
+        $("#FilterBtn").hide(2000);
+        $("#HideFilterBtn").show(2000);
+      })
+      $("#HideFilterBtn").click(function(){
+        $("#FilterForm").hide(2000);
+        $("#FilterBtn").show(2000);  
+        $("#HideFilterBtn").hide(2000);
+      })
+    });
+  </script>
+}

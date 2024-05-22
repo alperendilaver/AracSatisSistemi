@@ -1,0 +1,56 @@
+@model List<Istek>
+
+
+<div class="d-flex flex-column">
+    @foreach(var item in Model){
+        @if(item.Durum == IstekDurumu.beklemede){
+            <div class="card-columns d-flex justify-content-center">
+                <div class="card mt-5" style="width: 600px;">
+                    <a href="/Ilan/Detay/@item.IlanId">
+                        <h6>@item.Ilan.Baslik</h6>
+                    </a>
+                    <div class="card-body">
+                        <h3 class="fs-3 text-dark text-muted">Marka</h3>
+                        <p class="text-dark"> @item.Ilan.arac.Marka.MakeName</p>
+                        
+                        <h3 class="fs-3 text-dark text-muted">Model</h3>
+                        <p>@item.Ilan.arac.Model.ModelAdi</p>
+                                
+                        <h3 class="fs-3 text-dark text-muted">Üretim Yılı</h3>
+                        <p>@item.Ilan.arac.UretimYili</p>
+                                
+                        <h3 class="fs-3 text-dark text-muted">Yakit Türü</h3>
+                        <p>@item.Ilan.arac.YakitTuru</p>
+                                
+                        <h3 class="fs-3 text-dark text-muted">Şanzıman</h3>
+                        <p>@item.Ilan.arac.Sanziman</p>
+                                
+                        <h3 class="fs-3 text-dark text-muted">Kilometre</h3>
+                        <p>@item.Ilan.arac.Km</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="">
+                                <form asp-action="IlanOnayla" asp-controller="Admin" method="post">
+                                    <input type="hidden" name="IlanId" value="@item.IlanId">
+                                    <input type="hidden" name="IstekId" value="@item.IstekId">
+                                    <button type="submit" class="btn btn-outline-dark">Ilanı Onayla</button>
+                                </form>        
+                            </div>
+                            <div class="justify-content-end">
+                                <form asp-action="IlanReddet" asp-controller="Admin" method="post">
+                                    <input type="hidden" name="IstekId" value="@item.IstekId">
+                                    <input type="hidden" name="IlanId" value="@item.IlanId">
+                                    
+                                    <button  class="btn btn-outline-dark ">Ilan İsteğini Reddet</button>
+                                </form>
+                            </div>
+                        </div>
+                    
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+        }
+    }
+</div>

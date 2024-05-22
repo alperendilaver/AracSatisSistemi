@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\yazilim_mimari.props" />
+</Project>

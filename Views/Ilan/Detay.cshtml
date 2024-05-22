@@ -1,0 +1,190 @@
+@model Ilan
+@{
+    var gorseller= @Model.Resimler;
+}
+<div class="container profile-container">
+    <div class="card-columns">
+        <div class="card">
+            <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                   
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" >
+                            <img src="/img/@gorseller[0]" class="d-block w-100" alt="..." >
+                        </div>
+                    
+
+                        @for(int i=1;i < gorseller.Count;i++){
+
+                        <div class="carousel-item">
+                            <img src="/img/@gorseller[i]" class="d-block w-100" >
+                        </div>
+                    
+                        }
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+               
+                <h3 class="fs-3 text-dark text-muted">Marka</h3>
+                <p class="text-dark"> @Model.arac.Marka.MakeName</p>
+                
+                <h3 class="fs-3 text-dark text-muted">Model</h3>
+                <p>@Model.arac.Model.ModelAdi</p>
+                        
+                <h3 class="fs-3 text-dark text-muted">Üretim Yılı</h3>
+                <p>@Model.arac.UretimYili</p>
+                        
+                <h3 class="fs-3 text-dark text-muted">Yakit Türü</h3>
+                <p>@Model.arac.YakitTuru</p>
+                        
+                <h3 class="fs-3 text-dark text-muted">Şanzıman</h3>
+                <p>@Model.arac.Sanziman</p>
+                        
+                <h3 class="fs-3 text-dark text-muted">Kilometre</h3>
+                <p>@Model.arac.Km</p>
+                        
+                @if(Model.arac.SisFari == true){
+                    <p>Sis Farı Mevcut</p>
+                }
+                else{
+                    <p>Sis Farı Bulunmuyor</p>
+                }   
+
+                @if(Model.arac.KatlanabilirAyna == true){
+                    <p>Katlanabilir Ayna Mevcut</p>
+                }
+                else{
+                    <p>Katlanabilir Ayna Bulunmuyor</p>
+                }   
+                @if(Model.arac.ParkSensoru == true){
+                    <p>Park Sensörü Mevcut</p>
+                }
+                else{
+                    <p>Park Sensörü Bulunmuyor</p>
+                }  
+                
+                @if(Model.arac.MerkeziKilit == true){
+                    <p>Merkezi Kilit Mevcut</p>
+                }
+                else{
+                    <p>Merkezi Kilit Bulunmuyor</p>
+                }  
+     
+                @if(Model.arac.CamTavan == true){
+                    <p>Cam Tavan Mevcut</p>
+                }
+                else{
+                    <p>Cam Tavan Bulunmuyor</p>
+                }  
+                
+                <p>@Model.kullanici.Ad @Model.kullanici.Soyad</p>
+                
+                
+                <p>@Model.kullanici.Eposta</p>
+            
+
+            </div>
+        </div>
+    </div>
+    
+@if(User.FindFirstValue(ClaimTypes.Email)==Model.kullanici.Eposta){
+    <a href="/Ilan/IlanDuzenle/@Model.IlanId" class="btn btn-success mt-3">İlanını Düzenle</a>
+}
+</div>
+<div class="bg-white mt-3">
+    <div class="card border-0">
+        <div class="card-header pb-0">
+                <h4>@Model.Yorumlar.Count() adet yorum</h4>
+            </div><div class="card-body">
+                <div id="comments">
+                    @foreach(var comment in Model.Yorumlar){
+                        <div class="my-4">
+                            <div>
+                                <div class="mb-2 d-flex">
+                                    <h6 class="me-2">@comment.kullanici.Ad</h6>
+                                    <small>@comment.Tarih.ToString("d")</small>
+                                </div>
+                            </div>
+                            <p>@comment.YorumIcerik</p>
+                        </div>
+                    }
+                </div>
+                <hr class="m-4">
+                @if(User.Identity!.IsAuthenticated)
+                {
+                        <div>
+                    <h4>Yorum Ekle</h4>
+                    <form action="/Yorum/YorumEkle" method="post">
+                        <input type="hidden" name="IlanId" id="IlanId" value="@Model.IlanId">
+
+                        <input type="hidden" name="KullaniciId" id="KullaniciId" value="@Model.KullaniciId">
+
+                        <div class="mb-3">
+                            <label for="YorumIcerik" class="form-label">Yorum</label>
+                            <textarea type="text" name="Yorum" id="Yorum"  rows="3" class="form-control"> </textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary" id="btnYorumKayit">Kaydet</button>
+                        </div>
+                    </form>
+                </div>
+                }
+                else{
+                    <p>Yorum yazabilmek için giriş yapmalısınız <a asp-action="Login" asp-controller="Kullanici">Giriş Yap</a> </p>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script >
+    $(document).ready(function() {
+        $('#changeImage').click(function() {
+                $('.uploadImage').show(500);
+            });
+        });
+    
+        $("#btnYorumKayit").click(function(){
+            $.ajax({
+                type:'POST',
+                url:'@Url.Action("YorumEkle")',
+                dataType: 'json',
+                data:{
+                    IlanId: $('#IlanId').val(), //actiona gelen parametre ismi: $htmldeki id
+                        
+                    KullaniciId: $('#KullaniciId').val(),
+                        
+                    Yorum: $('#Yorum').val(),
+                },
+                success: function(yorum){//burdaki parametre actiondan gönderilen json içindeki verileri yakalar
+                $("#comments").append(`
+                    <div class="my-4">
+                        <div>  
+                            <div class="mb-2 d-flex">
+                            <h6 class="me-2">${yorum.userName}</h6>
+                            <small>${yorum.Tarih}</small>
+                            </div>
+                            </div>
+                            <p>${yorum.Yorum}</p>
+                            </div> `);
+                }
+            });
+            return false;
+        });
+    </script>
+    }

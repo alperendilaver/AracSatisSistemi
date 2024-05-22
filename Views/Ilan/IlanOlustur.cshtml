@@ -1,0 +1,109 @@
+@model IlanOlusturViewModel
+@{
+    var UserId=User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+<form asp-action="IlanOlustur" asp-controller="Ilan" method="post" enctype="multipart/form-data">
+    
+    <div class="mb-3">
+        <label asp-for="Baslik" class="form-label">Baslik</label>
+        <input type="text" class="form-control" asp-for="Baslik">
+    </div>
+     
+
+    <div class="mb-3">
+        <label asp-for="Tur" class="form-label">Tür</label>
+        <select asp-for="Tur" class="form-control">
+            <option value="Araba">Araba</option>
+            <option value="Kamyon">Kamyon</option>
+            <option value="Bisiklet">Bisiklet</option>
+            <option value="Tir">Tır</option>
+        </select>
+    </div>
+      
+    <div class="mb-3">
+        <label asp-for="Fiyat" class="form-label">Fiyat</label>
+        <input type="text" class="form-control" asp-for="Fiyat">
+    </div>
+
+    <div class="mb-3">
+      <label asp-for="UretimYili" class="form-label">Üretim Yılı</label>
+      <input type="text" class="form-control" asp-for="UretimYili">
+    </div>
+
+    <div class="mb-3">
+      <label asp-for="MarkaId" class="form-label " >Marka</label>
+      <select class="form-control" name="MarkaId" asp-items="@ViewBag.Markalar"></select>
+    </div>
+    
+    <div class="mb-3">
+      <label asp-for="ModelId" class="form-label">Model</label>
+      <select class="form-control" name="ModelId" asp-items="@ViewBag.Modeller"></select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Sanziman" class="form-label">Sanziman</label>
+        <select asp-for="Sanziman" class="form-control">
+            <option value="otomatik">Otomatik</option>
+            <option value="manuel">Manuel</option>
+            <option value="yariOtomatik">Yarı Otomatik</option>
+        </select>
+    </div>
+
+    
+    <div class="mb-3">
+        <label asp-for="YakitTuru" class="form-label">Yakit Türü</label>
+        <select asp-for="YakitTuru" class="form-control">
+            <option value="benzin">Benzin</option>
+            <option value="dizel">Dizel</option>
+            <option value="LPG">LPG</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Km" class="form-label">Kilometre</label>
+        <input type="text" class="form-control" asp-for="Km">
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SisFari" class="form-label">Aracınızda sis farı var mı</label>
+        <select asp-for="SisFari" class="form-control">
+            <option value="true">Evet</option>
+            <option value="false">Hayır</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="KatlanabilirAyna" class="form-label">Aracınızda Katlanabilir Ayna var mı</label>
+        <select asp-for="KatlanabilirAyna" class="form-control">
+            <option value="true">Evet</option>
+            <option value="false">Hayır</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="ParkSensoru" class="form-label">Aracınızda park sensoru var mı</label>
+        <select asp-for="ParkSensoru" class="form-control">
+            <option value="true">Evet</option>
+            <option value="false">Hayır</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="MerkeziKilit" class="form-label">Aracınızda Merkezi Kilit var mı</label>
+        <select asp-for="MerkeziKilit" class="form-control">
+            <option value="true">Evet</option>
+            <option value="false">Hayır</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Camtavan" class="form-label">Aracınızda cam tavan var mı</label>
+        <select asp-for="Camtavan" class="form-control">
+            <option value="true">Evet</option>
+            <option value="false">Hayır</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Gorseller">Görsel Ekle</label>
+        <input type="file" asp-for="Gorseller" class="form-control mt-2" multiple>
+    </div>
+    
+    <input type="hidden" asp-for="KullaniciId" value="@UserId">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
