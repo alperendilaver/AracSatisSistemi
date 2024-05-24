@@ -34,6 +34,7 @@ builder.Services.AddScoped<ICommentService,EfCommentService>();
 builder.Services.AddScoped<IGorselService,EfGorselService>();
 builder.Services.AddScoped<ISearchService,EfSearchService>();
 builder.Services.AddScoped<IGetMarkServie,EfGetMarkService>();
+builder.Services.AddScoped<ICompareService,EfCompareService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

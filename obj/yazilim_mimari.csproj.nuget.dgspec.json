@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj": {}
+    "c:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj": {
+    "c:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj",
+        "projectUniqueName": "c:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj",
         "projectName": "yazilim_mimari",
-        "projectPath": "C:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj",
+        "projectPath": "c:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj",
         "packagesPath": "C:\\Users\\Alperen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alperen\\yazilim_mimari\\obj\\",
+        "outputPath": "c:\\Users\\Alperen\\yazilim_mimari\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alperen\\AppData\\Roaming\\NuGet\\NuGet.Config",

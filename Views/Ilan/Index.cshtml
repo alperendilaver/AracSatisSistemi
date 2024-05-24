@@ -105,11 +105,18 @@
               <p class="text-muted">Model: @item.arac.UretimYili</p>
             </div>
             </a>
-            
+            <div class="form-check">
+              <input class="form-check-input myCheckBox" name="check" type="checkbox" value="@item.IlanId" id="addCompareList">
+              <label class="form-check-label" for="check">
+                Karşılaştırma Listesine Ekle
+              </label>
+            </div>    
           </div>
+          
           </div>
         
-        }
+    }
+    <button type="button" id="compareIlan" class="btn btn-primary">Seçilen İlanları Karşılaştır</button>
 </div>
 
 @section Scripts{
@@ -125,6 +132,29 @@
         $("#FilterBtn").show(2000);  
         $("#HideFilterBtn").hide(2000);
       })
+      $("#compareIlan").click(function(){
+        let selectedValues = [];
+          // Seçilen checkboxların değerlerini al
+          $("#addCompareList:checked").each(function() {
+            selectedValues.push($(this).val());
+          });
+        $.ajax({
+          url: '@Url.Action("Compare", "Compare")',
+          type: 'POST',
+          contentType:'application/json',
+          dataType:'json',
+          data:JSON.stringify(selectedValues),
+          success:function(response){
+            console.log("basarulı",response)
+            $("body").html(response);
+          },
+          error:function(response){
+            console.log("basarısız",response)
+          }
+        })
+        true
+      });
     });
+
   </script>
 }

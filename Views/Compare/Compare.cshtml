@@ -1,0 +1,40 @@
+@model List<Ilan>
+  
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="d-flex flex-column">
+      @foreach(var item in Model){
+        
+          <div class="card-columns d-flex justify-content-center" style="margin-bottom: 90px;">
+    
+            <div class="card mt-5" style="width: 600px;">
+              <a asp-action="Detay" asp-controller="Ilan" asp-route-id="@item.IlanId">
+                <h6>@item.kullanici.Ad</h6>
+                <img class="card-img-top " src="/img/@item.Resimler[0]">
+                <div class="card-body">
+                  <p class="card-text">
+                    @item.Baslik
+                  </p>
+                  <p class="text-muted">Fiyat: @item.Fiyat</p>
+                  
+                  <p class="text-muted">Marka: @item.arac.Marka.MakeName</p>
+                  
+                  <p class="text-muted">Model: @item.arac.Model.ModelAdi</p>
+                  
+                  <p class="text-muted">Kilometre: @item.arac.Km</p>
+                  
+                  <p class="text-muted">Sanziman: @item.arac.Sanziman</p>
+                  
+                  <p class="text-muted">Model: @item.arac.UretimYili</p>
+                </div>
+                </a>
+                <div class="form-check">
+                  <input class="form-check-input myCheckBox" name="check" type="checkbox" value="@item.IlanId" id="addCompareList">
+                  <label class="form-check-label" for="check">
+                    Karşılaştırma Listesine Ekle
+                  </label>
+                </div>    
+              </div>
+              
+              </div>
+            
+        }

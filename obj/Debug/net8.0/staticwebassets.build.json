@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ny9TOJXfdL8mSsSauiECjj0vrpmjVg/BbZN99hpZZIQ=",
+  "Hash": "nUyaaWyb7QpRpx1qH42V9FS99kZd044luXoAWeSswoQ=",
   "Source": "yazilim_mimari",
   "BasePath": "_content/yazilim_mimari",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "yazilim_mimari\\wwwroot",
       "Source": "yazilim_mimari",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\bundle\\yazilim_mimari.styles.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\bundle\\yazilim_mimari.styles.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "yazilim_mimari.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\bundle\\yazilim_mimari.styles.css"
+      "OriginalItemSpec": "c:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\bundle\\yazilim_mimari.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\yazilim_mimari.bundle.scp.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\yazilim_mimari.bundle.scp.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "yazilim_mimari.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\yazilim_mimari.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\Alperen\\yazilim_mimari\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\yazilim_mimari.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\css\\site.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\css\\site.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\favicon.ico",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\favicon.ico",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\139bbea1-fde7-4f85-a843-7a4e7da889e0.jpg",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\139bbea1-fde7-4f85-a843-7a4e7da889e0.jpg",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/139bbea1-fde7-4f85-a843-7a4e7da889e0.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\img\\139bbea1-fde7-4f85-a843-7a4e7da889e0.jpg"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\1a3e7079-5b99-43b2-a80e-778c35343245.jpg",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\1a3e7079-5b99-43b2-a80e-778c35343245.jpg",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/1a3e7079-5b99-43b2-a80e-778c35343245.jpg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\1a3e7079-5b99-43b2-a80e-778c35343245.jpg"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\1e590be4-7c75-464e-9eb8-2dc0e1953366.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\1e590be4-7c75-464e-9eb8-2dc0e1953366.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/1e590be4-7c75-464e-9eb8-2dc0e1953366.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\1e590be4-7c75-464e-9eb8-2dc0e1953366.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\3200f83f-eeb6-44f1-8cf1-dc62f5414f30.jpg",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\3200f83f-eeb6-44f1-8cf1-dc62f5414f30.jpg",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/3200f83f-eeb6-44f1-8cf1-dc62f5414f30.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\3200f83f-eeb6-44f1-8cf1-dc62f5414f30.jpg"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\543a4b4b-8cc4-4f5f-ab8d-f8fe9a7e5142.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\543a4b4b-8cc4-4f5f-ab8d-f8fe9a7e5142.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/543a4b4b-8cc4-4f5f-ab8d-f8fe9a7e5142.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\543a4b4b-8cc4-4f5f-ab8d-f8fe9a7e5142.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\57605090-f4de-4279-94db-ca75d860538b.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\57605090-f4de-4279-94db-ca75d860538b.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/57605090-f4de-4279-94db-ca75d860538b.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\57605090-f4de-4279-94db-ca75d860538b.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\6eee7d17-8a71-4000-8a30-117228d8a6e5.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\6eee7d17-8a71-4000-8a30-117228d8a6e5.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/6eee7d17-8a71-4000-8a30-117228d8a6e5.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\img\\6eee7d17-8a71-4000-8a30-117228d8a6e5.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\80fb0f6c-1e0f-45b5-b0b7-0d9a9fd986c7.jpg",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\80fb0f6c-1e0f-45b5-b0b7-0d9a9fd986c7.jpg",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/80fb0f6c-1e0f-45b5-b0b7-0d9a9fd986c7.jpg",
       "AssetKind": "All",
@@ -245,10 +245,29 @@
       "OriginalItemSpec": "wwwroot\\img\\80fb0f6c-1e0f-45b5-b0b7-0d9a9fd986c7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\a10365f8-6877-40e4-bf94-c61e13b9b3bc.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\937ae84e-702c-49e4-8d2b-31883e162f65.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "BasePath": "_content/yazilim_mimari",
+      "RelativePath": "img/937ae84e-702c-49e4-8d2b-31883e162f65.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\937ae84e-702c-49e4-8d2b-31883e162f65.png"
+    },
+    {
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\a10365f8-6877-40e4-bf94-c61e13b9b3bc.png",
+      "SourceId": "yazilim_mimari",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/a10365f8-6877-40e4-bf94-c61e13b9b3bc.png",
       "AssetKind": "All",
@@ -264,10 +283,29 @@
       "OriginalItemSpec": "wwwroot\\img\\a10365f8-6877-40e4-bf94-c61e13b9b3bc.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\a721e712-7f1f-40e9-9730-bdbd0d46095a.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\a622c6a5-fd9a-41bf-8632-9fee3a20c62b.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "BasePath": "_content/yazilim_mimari",
+      "RelativePath": "img/a622c6a5-fd9a-41bf-8632-9fee3a20c62b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\a622c6a5-fd9a-41bf-8632-9fee3a20c62b.png"
+    },
+    {
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\a721e712-7f1f-40e9-9730-bdbd0d46095a.png",
+      "SourceId": "yazilim_mimari",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/a721e712-7f1f-40e9-9730-bdbd0d46095a.png",
       "AssetKind": "All",
@@ -283,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a721e712-7f1f-40e9-9730-bdbd0d46095a.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\a7d632d8-0c0e-4b44-9908-c212dcbb7b98.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\a7d632d8-0c0e-4b44-9908-c212dcbb7b98.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/a7d632d8-0c0e-4b44-9908-c212dcbb7b98.png",
       "AssetKind": "All",
@@ -302,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\a7d632d8-0c0e-4b44-9908-c212dcbb7b98.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\ca94453a-b13e-4987-a411-ef5a2ac2295f.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\ca94453a-b13e-4987-a411-ef5a2ac2295f.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/ca94453a-b13e-4987-a411-ef5a2ac2295f.png",
       "AssetKind": "All",
@@ -321,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\ca94453a-b13e-4987-a411-ef5a2ac2295f.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\d171ef53-942b-4374-9c7e-95e3dfc3db64.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\d171ef53-942b-4374-9c7e-95e3dfc3db64.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/d171ef53-942b-4374-9c7e-95e3dfc3db64.png",
       "AssetKind": "All",
@@ -340,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\d171ef53-942b-4374-9c7e-95e3dfc3db64.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\d1df577f-3b60-4cec-9d20-c43c72090b15.jpg",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\d1df577f-3b60-4cec-9d20-c43c72090b15.jpg",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/d1df577f-3b60-4cec-9d20-c43c72090b15.jpg",
       "AssetKind": "All",
@@ -359,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\d1df577f-3b60-4cec-9d20-c43c72090b15.jpg"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\e1028e38-1576-4157-9e47-65f5d063017a.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\e1028e38-1576-4157-9e47-65f5d063017a.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/e1028e38-1576-4157-9e47-65f5d063017a.png",
       "AssetKind": "All",
@@ -378,10 +416,29 @@
       "OriginalItemSpec": "wwwroot\\img\\e1028e38-1576-4157-9e47-65f5d063017a.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\e6faa23b-bda1-4d1e-b636-2bab077b4cdd.jpg",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\e5900718-b2c5-4a81-ab47-d902ccd0438f.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "BasePath": "_content/yazilim_mimari",
+      "RelativePath": "img/e5900718-b2c5-4a81-ab47-d902ccd0438f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\e5900718-b2c5-4a81-ab47-d902ccd0438f.png"
+    },
+    {
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\e6faa23b-bda1-4d1e-b636-2bab077b4cdd.jpg",
+      "SourceId": "yazilim_mimari",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/e6faa23b-bda1-4d1e-b636-2bab077b4cdd.jpg",
       "AssetKind": "All",
@@ -397,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\img\\e6faa23b-bda1-4d1e-b636-2bab077b4cdd.jpg"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\f5e16c4c-57a8-45b9-bb96-52e539e84af8.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\f5e16c4c-57a8-45b9-bb96-52e539e84af8.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/f5e16c4c-57a8-45b9-bb96-52e539e84af8.png",
       "AssetKind": "All",
@@ -416,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f5e16c4c-57a8-45b9-bb96-52e539e84af8.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\f7af057c-e637-45fa-840c-3043176ee0a5.png",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\img\\f7af057c-e637-45fa-840c-3043176ee0a5.png",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "img/f7af057c-e637-45fa-840c-3043176ee0a5.png",
       "AssetKind": "All",
@@ -435,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\img\\f7af057c-e637-45fa-840c-3043176ee0a5.png"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\js\\site.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\js\\site.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -454,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -473,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -492,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -511,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -530,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -549,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -568,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -587,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -606,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -625,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -644,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -663,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -682,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -701,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -720,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -739,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -758,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -777,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -796,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -815,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -834,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -853,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -872,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -891,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -910,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -929,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -948,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -967,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -986,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1005,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1024,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1043,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1062,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1081,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1100,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1119,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1138,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1157,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1176,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1195,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1214,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1233,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1252,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1271,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1290,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1309,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1328,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1347,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1366,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1385,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1404,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1423,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1442,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1461,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1480,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1499,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1518,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "yazilim_mimari",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Alperen\\yazilim_mimari\\wwwroot\\",
       "BasePath": "_content/yazilim_mimari",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
