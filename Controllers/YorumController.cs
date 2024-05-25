@@ -26,11 +26,11 @@ namespace yazilim_mimari.Controllers
         public async Task<JsonResult> YorumEkle(int IlanId,string Yorum,int KullaniciId){
             if(ModelState.IsValid){
                 var userName = User.FindFirstValue(ClaimTypes.Name);
-                var Tarih =DateTime.Now;
+                var Tarih =DateTime.Now.ToString("dd/MM/yyyy");
                 var result = await _commentService.YorumEkle(new YorumEkleViewModel{KullaniciId=KullaniciId, Yorum=Yorum,IlanId=IlanId});
                 if(result>0){
                     return Json(new{
-                        userName,        
+                        userName,
                         Yorum,
                         Tarih
                     });

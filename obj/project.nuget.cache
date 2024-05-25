@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WOsl+tLglHiH4bUfwsX+w+CZ8d2kfJaNAJegjNqtSJjLERxoKCv1Zm8oJUjqgnyTBC9jf+dA9rGOQRcXdJeudw==",
+  "dgSpecHash": "1Y6PrSRdtXcS1wDM83yDxvaLA63vRAXmPASEYK/0Po2TVLv/CKGzN8yckSSozoz8xEShP+Idnm75TXVH+jiNrQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj",
+  "projectFilePath": "C:\\Users\\Alperen\\yazilim_mimari\\yazilim_mimari.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alperen\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

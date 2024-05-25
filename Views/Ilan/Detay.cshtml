@@ -162,7 +162,7 @@
         $("#btnYorumKayit").click(function(){
             $.ajax({
                 type:'POST',
-                url:'@Url.Action("YorumEkle")',
+                url:'@Url.Action("YorumEkle","Yorum")',
                 dataType: 'json',
                 data:{
                     IlanId: $('#IlanId').val(), //actiona gelen parametre ismi: $htmldeki id
@@ -171,18 +171,18 @@
                         
                     Yorum: $('#Yorum').val(),
                 },
-                success: function(yorum){//burdaki parametre actiondan gönderilen json içindeki verileri yakalar
+                success: function(response){//burdaki parametre actiondan gönderilen json içindeki verileri yakalar
                 $("#comments").append(`
                     <div class="my-4">
                         <div>  
                             <div class="mb-2 d-flex">
-                            <h6 class="me-2">${yorum.userName}</h6>
-                            <small>${yorum.Tarih}</small>
+                            <h6 class="me-2">${response.userName}</h6>
+                            <small>${response.tarih}</small>
                             </div>
-                            </div>
-                            <p>${yorum.Yorum}</p>
+                        </div>
+                            <p>${response.yorum}</p>
                             </div> `);
-                }
+                },
             });
             return false;
         });

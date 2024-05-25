@@ -116,7 +116,7 @@
           </div>
         
     }
-    <button type="button" id="compareIlan" class="btn btn-primary">Seçilen İlanları Karşılaştır</button>
+    <button type="submit" id="compareIlan" class="btn btn-primary">Seçilen İlanları Karşılaştır</button>
 </div>
 
 @section Scripts{
@@ -142,17 +142,15 @@
           url: '@Url.Action("Compare", "Compare")',
           type: 'POST',
           contentType:'application/json',
-          dataType:'json',
           data:JSON.stringify(selectedValues),
           success:function(response){
             console.log("basarulı",response)
-            $("body").html(response);
           },
           error:function(response){
             console.log("basarısız",response)
           }
         })
-        true
+        return false;
       });
     });
 
